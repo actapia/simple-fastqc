@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple_fastqc"
+version = "0.0.1"
+authors = [
+    { name = "Andrew Tapia", email = "andrew.tapia@uky.edu" }
+]
+description =  "A simple library for working with FastQC from Python"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas >= 1.5.3"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/actapia/simple_fastqc"
+"Bug Tracker" = "https://github.com/actapia/simple_fastqc"
